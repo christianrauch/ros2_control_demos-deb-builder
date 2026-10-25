@@ -1,0 +1,60 @@
+ros2_control_demo_description:
+  ubuntu:
+  - ros-lyrical-ros2-control-demo-description
+ros2_control_demo_test_utils:
+  ubuntu:
+  - ros-lyrical-ros2-control-demo-test-utils
+ros2_control_demo_example_1:
+  ubuntu:
+  - ros-lyrical-ros2-control-demo-example-1
+ros2_control_demo_example_10:
+  ubuntu:
+  - ros-lyrical-ros2-control-demo-example-10
+ros2_control_demo_example_11:
+  ubuntu:
+  - ros-lyrical-ros2-control-demo-example-11
+ros2_control_demo_example_12:
+  ubuntu:
+  - ros-lyrical-ros2-control-demo-example-12
+ros2_control_demo_example_14:
+  ubuntu:
+  - ros-lyrical-ros2-control-demo-example-14
+ros2_control_demo_example_16:
+  ubuntu:
+  - ros-lyrical-ros2-control-demo-example-16
+ros2_control_demo_example_17:
+  ubuntu:
+  - ros-lyrical-ros2-control-demo-example-17
+ros2_control_demo_example_2:
+  ubuntu:
+  - ros-lyrical-ros2-control-demo-example-2
+ros2_control_demo_example_3:
+  ubuntu:
+  - ros-lyrical-ros2-control-demo-example-3
+ros2_control_demo_example_4:
+  ubuntu:
+  - ros-lyrical-ros2-control-demo-example-4
+ros2_control_demo_example_5:
+  ubuntu:
+  - ros-lyrical-ros2-control-demo-example-5
+ros2_control_demo_example_6:
+  ubuntu:
+  - ros-lyrical-ros2-control-demo-example-6
+ros2_control_demo_example_7:
+  ubuntu:
+  - ros-lyrical-ros2-control-demo-example-7
+ros2_control_demo_example_8:
+  ubuntu:
+  - ros-lyrical-ros2-control-demo-example-8
+ros2_control_demo_example_9:
+  ubuntu:
+  - ros-lyrical-ros2-control-demo-example-9
+ros2_control_demo_example_13:
+  ubuntu:
+  - ros-lyrical-ros2-control-demo-example-13
+ros2_control_demo_example_15:
+  ubuntu:
+  - ros-lyrical-ros2-control-demo-example-15
+ros2_control_demos:
+  ubuntu:
+  - ros-lyrical-ros2-control-demos

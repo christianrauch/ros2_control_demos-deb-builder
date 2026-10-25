@@ -1,0 +1,620 @@
+Package: ros-lyrical-ros2-control-demo-description
+Architecture: amd64
+Version: 0-2026.10.25.19.53
+Priority: optional
+Section: misc
+Maintainer: Denis Štogl <denis@stogl.de>
+Installed-Size: 4819
+Depends: ros-lyrical-rviz2
+Filename: ./ros-lyrical-ros2-control-demo-description_0-2026.10.25.19.53_amd64.deb
+Size: 1300480
+MD5sum: 1ae27ba1c364bb6dfa7c45320d7e2dab
+SHA1: 1ad18ac3bb9a4fa3d41ea1bd09e73aff59c7d780
+SHA256: f797be72c5f653fbf166572f099e995651aced9abdd857f39cb4e2309002bee1
+SHA512: 9a98e24fa9cda8c253325e0a7dc06e50e511ffa1ce2786e0f0266a09c34c0f23c55f799d02566cb512f46578cc0197956391a70cfb8f1672463445711f68c87f
+Description: Package with URDF and description files of test robots.
+
+Package: ros-lyrical-ros2-control-demo-example-1-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2026.10.25.19.55
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-ros2-control-demo-example-1
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 598
+Depends: ros-lyrical-ros2-control-demo-example-1 (= 0-2026.10.25.19.55)
+Filename: ./ros-lyrical-ros2-control-demo-example-1-dbgsym_0-2026.10.25.19.55_amd64.ddeb
+Size: 557068
+MD5sum: dfa4b94165e6298927819fbdb6414d86
+SHA1: 0b5798732d685333fc7bcbcf395f32528a3f75fd
+SHA256: 9a51c2fe7d7be8e1c6ec4808e33815bc780d221f39e19ab36510a904172030f3
+SHA512: 8ba72be5a5a1d5a3e4ff00ed0ea08d63ca5a683578062f6caf28ea3e301579ef794ef82b8144cc9dac2dc43763511941a91f4a28c7e1b8f9610b60e47f234dab
+Description: debug symbols for ros-lyrical-ros2-control-demo-example-1
+Build-Ids: 1a1ed70b69b0f856950f0b54bdd3c89439543df6
+
+Package: ros-lyrical-ros2-control-demo-example-10-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2026.10.25.19.56
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-ros2-control-demo-example-10
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 582
+Depends: ros-lyrical-ros2-control-demo-example-10 (= 0-2026.10.25.19.56)
+Filename: ./ros-lyrical-ros2-control-demo-example-10-dbgsym_0-2026.10.25.19.56_amd64.ddeb
+Size: 543196
+MD5sum: cf5c177c99ebd27b31179a3ea5dd14b9
+SHA1: e06c85dd8f9344370767d418c922fe4498325921
+SHA256: 976b926ebc856c2ebd3afa3202d4fa8b188d5fb5791f1b56014d55d5f25cfaff
+SHA512: 48e9c8779c71e39ba3543ff07ce396e76abe5af4161dce9a000d55411a6fa3e84d28bee4876ad58a9289f94ded00ce4907cedb3b3395632fdf73e88c0182e145
+Description: debug symbols for ros-lyrical-ros2-control-demo-example-10
+Build-Ids: 0c894d3413126b6ef439b3d8792717b73c7f3e26
+
+Package: ros-lyrical-ros2-control-demo-example-10
+Architecture: amd64
+Version: 0-2026.10.25.19.56
+Priority: optional
+Section: misc
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 168
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-backward-ros, ros-lyrical-controller-manager, ros-lyrical-forward-command-controller, ros-lyrical-gpio-controllers, ros-lyrical-hardware-interface, ros-lyrical-joint-state-broadcaster, ros-lyrical-joint-state-publisher-gui, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-lifecycle, ros-lyrical-robot-state-publisher, ros-lyrical-ros2-control-demo-description, ros-lyrical-ros2-controllers-test-nodes, ros-lyrical-ros2controlcli, ros-lyrical-ros2launch, ros-lyrical-rviz2, ros-lyrical-xacro
+Filename: ./ros-lyrical-ros2-control-demo-example-10_0-2026.10.25.19.56_amd64.deb
+Size: 36218
+MD5sum: 2f307f2eb55408dedae547633b385a14
+SHA1: a4349e845b8ddf49e57b06b872ad1ed50308227c
+SHA256: f6aef1e1239d692f5d375220a174ad6673dcaa3a10ae2339c67f65329539495e
+SHA512: 6568a3754b58109cd9fbc021ba35056392f91c9311914a3d8df402cc389c0c34545a1176d6c6f2111ca9a555e795b789beb2c2bfc913830fec81c3171e1f7e06
+Description: Demo package of `ros2_control` hardware for RRbot with GPIO interfaces.
+
+Package: ros-lyrical-ros2-control-demo-example-11-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2026.10.25.19.58
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-ros2-control-demo-example-11
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 655
+Depends: ros-lyrical-ros2-control-demo-example-11 (= 0-2026.10.25.19.58)
+Filename: ./ros-lyrical-ros2-control-demo-example-11-dbgsym_0-2026.10.25.19.58_amd64.ddeb
+Size: 610866
+MD5sum: 1d1151afc4126f989e5efe10162a4291
+SHA1: 0d25cf8772769f8d97a1061a1831fd5ca8fcb7e6
+SHA256: 81e99697ef3c1b22902c62f766e7ba2de946b3b033f541556c8186548b4e0f2a
+SHA512: 370d238c212866aadb0c5dc8caa96dc9988160b71bdc20d4778550ed5550ab332f352f077a6eda7bb35cdbb92d3a3e79153500546a3e0de19446a7de25bbc481
+Description: debug symbols for ros-lyrical-ros2-control-demo-example-11
+Build-Ids: 8346cca8ffc7ca87281f8c3c7520b589abe3963c
+
+Package: ros-lyrical-ros2-control-demo-example-11
+Architecture: amd64
+Version: 0-2026.10.25.19.58
+Priority: optional
+Section: misc
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 192
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-backward-ros, ros-lyrical-bicycle-steering-controller, ros-lyrical-controller-manager, ros-lyrical-hardware-interface, ros-lyrical-joint-state-broadcaster, ros-lyrical-joint-state-publisher-gui, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-lifecycle, ros-lyrical-robot-state-publisher, ros-lyrical-ros2-control-demo-description, ros-lyrical-ros2controlcli, ros-lyrical-ros2launch, ros-lyrical-rviz2, ros-lyrical-xacro
+Filename: ./ros-lyrical-ros2-control-demo-example-11_0-2026.10.25.19.58_amd64.deb
+Size: 42476
+MD5sum: d1e8781269af1a7c297ed6cdefecc2a5
+SHA1: 5610ee9a8db0ec02bdaa88772624cae794704549
+SHA256: 3a1bcc7acfb6ae1a487eca61fbe6a3899ed5e5a6ec2c3cb08d73d9e8bfe20569
+SHA512: d7fb0ff63bd6f58487cdb34ee08b70302f791ec3ad044a78a87011ae72fd77d18565e441478630acd85633054b1f62889f1ddc6d54f6db8cfcc28f1e42d36c67
+Description: Demo package of `ros2_control` hardware for a carlike robot with two wheels in front that steer and two wheels in the back that drive.
+
+Package: ros-lyrical-ros2-control-demo-example-12-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2026.10.25.19.59
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-ros2-control-demo-example-12
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 3292
+Depends: ros-lyrical-ros2-control-demo-example-12 (= 0-2026.10.25.19.59)
+Filename: ./ros-lyrical-ros2-control-demo-example-12-dbgsym_0-2026.10.25.19.59_amd64.ddeb
+Size: 2844202
+MD5sum: 60f658fb7e0f55e16731d367f91add83
+SHA1: 7ebd95820271e3c997e5b258ba22ceded9578c2d
+SHA256: 9adbf31c7f289ae22bfb110d2759517e8d2eb9d8ebbfec740ea840b8b95c51da
+SHA512: 7d6b92a7bef79622a0f82297ef2d265440f4e6a5c4f3c119b09ba8f23fdf19326f614bf7b34b61e1d09eb88197702e2f94af290ce9b0370879a2df5821eb6fdb
+Description: debug symbols for ros-lyrical-ros2-control-demo-example-12
+Build-Ids: 6fe569e9e676490e46b0b4db5a516b7b74acd2e1 780cb54fe9d1f2395ddc7ca76c6e3a1d69f8c449
+
+Package: ros-lyrical-ros2-control-demo-example-12
+Architecture: amd64
+Version: 0-2026.10.25.19.59
+Priority: optional
+Section: misc
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 713
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), ros-lyrical-backward-ros, ros-lyrical-controller-manager, ros-lyrical-forward-command-controller, ros-lyrical-hardware-interface, ros-lyrical-joint-state-broadcaster, ros-lyrical-joint-state-publisher-gui, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-lifecycle, ros-lyrical-robot-state-publisher, ros-lyrical-ros2-control-demo-description, ros-lyrical-ros2-controllers-test-nodes, ros-lyrical-ros2controlcli, ros-lyrical-rviz2, ros-lyrical-std-msgs, ros-lyrical-xacro
+Filename: ./ros-lyrical-ros2-control-demo-example-12_0-2026.10.25.19.59_amd64.deb
+Size: 161012
+MD5sum: ed7245d51f8ec8b1e2c7c6542f006f80
+SHA1: e44c4309c776b16cd0288d765c1378786d4a7b95
+SHA256: f89e4e6068881a538fe4847f314216552d11515b89d2c178ad006a864efe4551
+SHA512: 9de0ca32e55bea3517a8fbc383427a9007e903bd2e2c99b95f04b040bc70c74a91785f6ae969ef208ce4d9a91c7a4dbba65c78c760c9be069953dc8f40681413
+Description: Demo package of `ros2_control` simulation with RRbot.
+
+Package: ros-lyrical-ros2-control-demo-example-13
+Architecture: amd64
+Version: 0-2026.10.25.20.16
+Priority: optional
+Section: misc
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 76
+Depends: ros-lyrical-controller-manager, ros-lyrical-force-torque-sensor-broadcaster, ros-lyrical-forward-command-controller, ros-lyrical-joint-state-broadcaster, ros-lyrical-robot-state-publisher, ros-lyrical-ros2-control-demo-description, ros-lyrical-ros2-control-demo-example-4, ros-lyrical-ros2-control-demo-example-5, ros-lyrical-ros2-controllers-test-nodes, ros-lyrical-ros2controlcli, ros-lyrical-ros2launch, ros-lyrical-rqt-controller-manager, ros-lyrical-rviz2, ros-lyrical-xacro
+Filename: ./ros-lyrical-ros2-control-demo-example-13_0-2026.10.25.20.16_amd64.deb
+Size: 10652
+MD5sum: 23af5ed085bd0e83026eef40a0497bda
+SHA1: 53ded905a7848a88bdc078a008b4d69f6cdc9e00
+SHA256: c68197e1a7642e76ac1b47364b9a95530219da63366ff5abdc530e4d2d79115e
+SHA512: a5f7f638f732ca3d743cd625a7185dedc3a44905c0075535cf311a0d1ec75808cc3543edf3b675a0747d4829842871236107014e612ab002ad6e5d815ed99620
+Description: Demo package of `ros2_control` simulation with multiple robots.
+
+Package: ros-lyrical-ros2-control-demo-example-14-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2026.10.25.20.01
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-ros2-control-demo-example-14
+Maintainer: Denis Štogl <denis@stogl.de>
+Installed-Size: 968
+Depends: ros-lyrical-ros2-control-demo-example-14 (= 0-2026.10.25.20.01)
+Filename: ./ros-lyrical-ros2-control-demo-example-14-dbgsym_0-2026.10.25.20.01_amd64.ddeb
+Size: 908014
+MD5sum: e4bab7466042e54c694d49054b801186
+SHA1: 7b9ba8d336643901d1250862e4ba1c22d93a5e20
+SHA256: cfcde66c2e60f3b28eaad6ca681f17d54091ec2e90690ac3ae04c725c4ba5ac6
+SHA512: 29fc1df86dc868b79499e3ac9f927226b08c794182afabd0638d13828e4c50fa6a1a33877d50abd6470228abd614be3cde1320bc389aa5ed78383e8ee682737f
+Description: debug symbols for ros-lyrical-ros2-control-demo-example-14
+Build-Ids: 8375e39d8c6183509025f22167de0dddc251413f
+
+Package: ros-lyrical-ros2-control-demo-example-14
+Architecture: amd64
+Version: 0-2026.10.25.20.01
+Priority: optional
+Section: misc
+Maintainer: Denis Štogl <denis@stogl.de>
+Installed-Size: 228
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-controller-manager, ros-lyrical-forward-command-controller, ros-lyrical-hardware-interface, ros-lyrical-joint-state-broadcaster, ros-lyrical-joint-state-publisher-gui, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-lifecycle, ros-lyrical-realtime-tools, ros-lyrical-robot-state-publisher, ros-lyrical-ros2-control-demo-description, ros-lyrical-ros2-controllers-test-nodes, ros-lyrical-ros2controlcli, ros-lyrical-ros2launch, ros-lyrical-rviz2, ros-lyrical-xacro
+Filename: ./ros-lyrical-ros2-control-demo-example-14_0-2026.10.25.20.01_amd64.deb
+Size: 49986
+MD5sum: def8164319b63be621a28ebeb0cf9c08
+SHA1: 39e8eb1f013d7f25c2f0cfeebb4af6e38f5cfb41
+SHA256: 4acc1a15ff8ba34bf6ea50e085fad78197f381118a8be9cd664158afc19ffb92
+SHA512: 8fec7cacee944971cec3b87824f95c7132d2c755d0a4e92b4b6ea380242dc2fc3f1a8ac7b430dbba84992efd6a0701169b109e0b386874401de4b2fcee8af3c4
+Description: Modular Robots with actuators not providing states and with additional sensors.
+
+Package: ros-lyrical-ros2-control-demo-example-15
+Architecture: amd64
+Version: 0-2026.10.25.20.17
+Priority: optional
+Section: misc
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 101
+Depends: ros-lyrical-controller-manager, ros-lyrical-forward-command-controller, ros-lyrical-joint-state-broadcaster, ros-lyrical-joint-trajectory-controller, ros-lyrical-robot-state-publisher, ros-lyrical-ros2-control-demo-example-1, ros-lyrical-ros2-control-demo-example-5, ros-lyrical-ros2-controllers-test-nodes, ros-lyrical-ros2controlcli, ros-lyrical-ros2launch, ros-lyrical-rviz2, ros-lyrical-xacro
+Filename: ./ros-lyrical-ros2-control-demo-example-15_0-2026.10.25.20.17_amd64.deb
+Size: 11618
+MD5sum: 09a8e94e24d8e7868ca0b4a676ea97e2
+SHA1: e85bea62a53bde1a1ba1dd25cfd84c051a5ad3e2
+SHA256: 3b304d341823a6f3057367f4f50030f425224dae503fdbb25c6ee131c44e22ad
+SHA512: 6c089a4327624b70417e004ef3ab1a58e1b327190f3a1577a576d24d4f4f63641547d5e7c3dd2fb12a2811d1d6d41df602f1ba99b8ee3a3bce0c78210cbe8c0f
+Description: Demo package of `ros2_control` namespaced controller managers.
+
+Package: ros-lyrical-ros2-control-demo-example-16-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2026.10.25.20.02
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-ros2-control-demo-example-16
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 599
+Depends: ros-lyrical-ros2-control-demo-example-16 (= 0-2026.10.25.20.02)
+Filename: ./ros-lyrical-ros2-control-demo-example-16-dbgsym_0-2026.10.25.20.02_amd64.ddeb
+Size: 558604
+MD5sum: 004fdc9e79c800515574be36cb7f060c
+SHA1: 68bb9f6dfed3f95a69dbab9a6163a5612dbcadad
+SHA256: 9ba469d264e052c8e014a8bb92c2b492113eef2f28c4a49d1ab81075730c1a08
+SHA512: 3523144c1c289f219c54939221c7911f5358f555c58c9a776dc70a0b7548cd1e43d1c64ba0ab42ddfc0d8eb768ddcb48ae1559f17c04d30ce078b4fafa90c145
+Description: debug symbols for ros-lyrical-ros2-control-demo-example-16
+Build-Ids: ab478f4b7e54b393277f3693a03de20007585836
+
+Package: ros-lyrical-ros2-control-demo-example-16
+Architecture: amd64
+Version: 0-2026.10.25.20.02
+Priority: optional
+Section: misc
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 185
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-backward-ros, ros-lyrical-controller-manager, ros-lyrical-diff-drive-controller, ros-lyrical-hardware-interface, ros-lyrical-joint-state-broadcaster, ros-lyrical-joint-state-publisher-gui, ros-lyrical-pid-controller, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-lifecycle, ros-lyrical-robot-state-publisher, ros-lyrical-ros2-control-demo-description, ros-lyrical-ros2-controllers-test-nodes, ros-lyrical-ros2controlcli, ros-lyrical-ros2launch, ros-lyrical-rviz2, ros-lyrical-xacro
+Filename: ./ros-lyrical-ros2-control-demo-example-16_0-2026.10.25.20.02_amd64.deb
+Size: 38818
+MD5sum: 27e25d81d30cea237e94cf2384098a70
+SHA1: 3aafff1a670856e1baa7f5fa042fa6c06ebf1d04
+SHA256: 509d27394f561a4027075e2f71070bcdce953fd17930751e348f0d196ab575fc
+SHA512: 0ed51d9ba967ed4f9bd6121ad8e8e70dfc96a6ced620ddd180aa162006eb8583c8277446025869ca5e863f3f74704ef0ddbbd284bc759522115bc1380fda8666
+Description: Demo package of `ros2_control` hardware for DiffBot.
+
+Package: ros-lyrical-ros2-control-demo-example-17-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2026.10.25.20.03
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-ros2-control-demo-example-17
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 1287
+Depends: ros-lyrical-ros2-control-demo-example-17 (= 0-2026.10.25.20.03)
+Filename: ./ros-lyrical-ros2-control-demo-example-17-dbgsym_0-2026.10.25.20.03_amd64.ddeb
+Size: 1175242
+MD5sum: 08f95131ba521ef4f2ae9e316d95d02a
+SHA1: 30c41b6581878f6532a567a0ce6093a0b82759fb
+SHA256: d1c9c63645b62e37b56b6d148c37539a4c16ca7fad133461431a97c7033e2762
+SHA512: d8fcfb513fc7d3566848a50eb5292f4856ee4d4adf2171c1dae61c1b08b9f5916a17192383fbea25364c8cb035dffa4b3ec64db5726efa382f0e0a5f06b75da7
+Description: debug symbols for ros-lyrical-ros2-control-demo-example-17
+Build-Ids: 9e911186149dd0722b02193ba8db553ff8f3ce22
+
+Package: ros-lyrical-ros2-control-demo-example-17
+Architecture: amd64
+Version: 0-2026.10.25.20.03
+Priority: optional
+Section: misc
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 296
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-backward-ros, ros-lyrical-controller-manager, ros-lyrical-diagnostic-updater, ros-lyrical-forward-command-controller, ros-lyrical-hardware-interface, ros-lyrical-joint-state-broadcaster, ros-lyrical-joint-state-publisher-gui, ros-lyrical-joint-trajectory-controller, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-lifecycle, ros-lyrical-robot-state-publisher, ros-lyrical-ros2-control-demo-description, ros-lyrical-ros2-controllers-test-nodes, ros-lyrical-ros2controlcli, ros-lyrical-ros2launch, ros-lyrical-rqt-joint-trajectory-controller, ros-lyrical-rviz2, ros-lyrical-xacro
+Filename: ./ros-lyrical-ros2-control-demo-example-17_0-2026.10.25.20.03_amd64.deb
+Size: 81134
+MD5sum: 6555fa944c68a0e5ccce1a27952a50eb
+SHA1: c80dfe0eaf63ded80173d759fdbf0d82c58348cc
+SHA256: 38294560be721ffa710bfb90a64651ffa4741e642a72be78afc585386943fa59
+SHA512: 7421753c43f42c0f97fda086a0a78ca3d51709d1bf8ddbe4852d8bc74f46e7858901f2532889022de92449fa521375a053604fcb4604991132bc58f1acd1f9e2
+Description: Demo package of `ros2_control` hardware for RRBot with Hardware Component that publishes diagnostics
+
+Package: ros-lyrical-ros2-control-demo-example-1
+Architecture: amd64
+Version: 0-2026.10.25.19.55
+Priority: optional
+Section: misc
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 184
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-backward-ros, ros-lyrical-controller-manager, ros-lyrical-forward-command-controller, ros-lyrical-hardware-interface, ros-lyrical-joint-state-broadcaster, ros-lyrical-joint-state-publisher-gui, ros-lyrical-joint-trajectory-controller, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-lifecycle, ros-lyrical-robot-state-publisher, ros-lyrical-ros2-control-demo-description, ros-lyrical-ros2-controllers-test-nodes, ros-lyrical-ros2controlcli, ros-lyrical-ros2launch, ros-lyrical-rqt-joint-trajectory-controller, ros-lyrical-rviz2, ros-lyrical-xacro
+Filename: ./ros-lyrical-ros2-control-demo-example-1_0-2026.10.25.19.55_amd64.deb
+Size: 37066
+MD5sum: 29ef1dfb1213f36292ee41135edfa30c
+SHA1: 87b128cd861ffedc43c1544faa13fd236c6dc49b
+SHA256: 6c5be35ba17d48e9c70e487436fd6c59756967b40a1cd710b422597c402bcbc8
+SHA512: 94bbeabdd99a8f148ba898983c656fe3b9d8a38bd0c9260b256e5737462f3138ca5c5c9499915b0b4488bc35be441492e132c5f972bff03cebcd3f9f0e4727da
+Description: Demo package of `ros2_control` hardware for RRbot.
+
+Package: ros-lyrical-ros2-control-demo-example-2-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2026.10.25.20.05
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-ros2-control-demo-example-2
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 599
+Depends: ros-lyrical-ros2-control-demo-example-2 (= 0-2026.10.25.20.05)
+Filename: ./ros-lyrical-ros2-control-demo-example-2-dbgsym_0-2026.10.25.20.05_amd64.ddeb
+Size: 558500
+MD5sum: 362aa25ac7c631e4a80101690f0da21e
+SHA1: e7b0591f3e33c3bff7672e0ca3975b16fda57b02
+SHA256: 380c0bbec922bc0e253705d747be7674a15aada3a546d250ed5a69e643ad5241
+SHA512: 32c840470b4db67817bc52b20d437bc44b15957430bac92bc697819d3f4f0759dbb1f48fc3e901c0c1ed430391a97ac38cb5ba7295526dced36f1b6df2ff9df3
+Description: debug symbols for ros-lyrical-ros2-control-demo-example-2
+Build-Ids: 11197894430365c45bf5a5e6b24a18bbc580f4ca
+
+Package: ros-lyrical-ros2-control-demo-example-2
+Architecture: amd64
+Version: 0-2026.10.25.20.05
+Priority: optional
+Section: misc
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 179
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-backward-ros, ros-lyrical-controller-manager, ros-lyrical-diff-drive-controller, ros-lyrical-hardware-interface, ros-lyrical-joint-state-broadcaster, ros-lyrical-joint-state-publisher-gui, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-lifecycle, ros-lyrical-robot-state-publisher, ros-lyrical-ros2-control-demo-description, ros-lyrical-ros2-controllers-test-nodes, ros-lyrical-ros2controlcli, ros-lyrical-ros2launch, ros-lyrical-rviz2, ros-lyrical-xacro
+Filename: ./ros-lyrical-ros2-control-demo-example-2_0-2026.10.25.20.05_amd64.deb
+Size: 37028
+MD5sum: 0b1331f30c0adc28ebfb7bf1965fc83f
+SHA1: e6cc09cd405888acf5fc5d5e2fa039e3fe7b2ca1
+SHA256: d6555720592378cb84f4e40e93f56ea561f50795aa4186d0e245707f1ed466ef
+SHA512: 0bd724ce09178bb3287e94acdf22dd340d432b5a76dd2fe3615cb0b924aa736b98ef45ae8bd970a4d7cabd567a2e4c8a120f95e97b4b1dc2800efe611ae88427
+Description: Demo package of `ros2_control` hardware for DiffBot.
+
+Package: ros-lyrical-ros2-control-demo-example-3-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2026.10.25.20.06
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-ros2-control-demo-example-3
+Maintainer: Denis Štogl <denis@stogl.de>
+Installed-Size: 668
+Depends: ros-lyrical-ros2-control-demo-example-3 (= 0-2026.10.25.20.06)
+Filename: ./ros-lyrical-ros2-control-demo-example-3-dbgsym_0-2026.10.25.20.06_amd64.ddeb
+Size: 625376
+MD5sum: 02178bb4394d90775be2e3d01e056cb9
+SHA1: 291c03cc069632ef813b6e9fd27048891fe014a0
+SHA256: 281f74d8ed0abe82defa8ffb20c372697c44bac6fd951b4cf93cee93f6fdd2ae
+SHA512: 822a55c61706ba51ea3a924b3ce7267175cdd090887de0c947f5edaa88f24757585b0601c6a57a3cf82a9f1fe11be6851534cd740015a99766654515fa2698f6
+Description: debug symbols for ros-lyrical-ros2-control-demo-example-3
+Build-Ids: 98e6496cb50fe859d978f2ad0d1c98d95f77dbfa
+
+Package: ros-lyrical-ros2-control-demo-example-3
+Architecture: amd64
+Version: 0-2026.10.25.20.06
+Priority: optional
+Section: misc
+Maintainer: Denis Štogl <denis@stogl.de>
+Installed-Size: 200
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-backward-ros, ros-lyrical-controller-manager, ros-lyrical-forward-command-controller, ros-lyrical-hardware-interface, ros-lyrical-joint-state-broadcaster, ros-lyrical-joint-state-publisher-gui, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-lifecycle, ros-lyrical-robot-state-publisher, ros-lyrical-ros2-control-demo-description, ros-lyrical-ros2-controllers-test-nodes, ros-lyrical-ros2controlcli, ros-lyrical-ros2launch, ros-lyrical-rviz2, ros-lyrical-xacro
+Filename: ./ros-lyrical-ros2-control-demo-example-3_0-2026.10.25.20.06_amd64.deb
+Size: 43800
+MD5sum: b4b2952efa67fd229bc28a9bac0e6c72
+SHA1: 805c722463723f797ceabbf05a1689f9f09ecbc3
+SHA256: 643f15f3deb49e3401109b356200d572f596c5048c0ef47b65a04de45dd6d670
+SHA512: 1d32ac4d2c2a1c2fcd64fc6f4a432a447320b1fe35fad18c5ecb60b0e3f2d6f4f646454f3ca0d6c9265ce7bc08a4c169b97a6a7ee33adbd25f612fe1759598f9
+Description: Demo package of `ros2_control` hardware for RRbot with multi interface.
+
+Package: ros-lyrical-ros2-control-demo-example-4-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2026.10.25.20.07
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-ros2-control-demo-example-4
+Maintainer: Denis Štogl <denis@stogl.de>
+Installed-Size: 611
+Depends: ros-lyrical-ros2-control-demo-example-4 (= 0-2026.10.25.20.07)
+Filename: ./ros-lyrical-ros2-control-demo-example-4-dbgsym_0-2026.10.25.20.07_amd64.ddeb
+Size: 569756
+MD5sum: 4ab1c0f8da945603fc877a8b99aae1cb
+SHA1: 7aefc83bb55028e37cee3b6f835db2814c8afe2f
+SHA256: c7034e1d97484779e330a771e15ebf7d1b2627709d3d405a0315d7502224a46a
+SHA512: 9a49b93cc4317e9294785c8c6e6ba1b7deb1b37f38e36d2565d65194d6b2985b81c08a817c819116a7e621d7733e76a2850e4db6630e28c92f3477506fec073e
+Description: debug symbols for ros-lyrical-ros2-control-demo-example-4
+Build-Ids: 079e8fa49bb386843ee6a38ebd605faeb8f7eba2
+
+Package: ros-lyrical-ros2-control-demo-example-4
+Architecture: amd64
+Version: 0-2026.10.25.20.07
+Priority: optional
+Section: misc
+Maintainer: Denis Štogl <denis@stogl.de>
+Installed-Size: 190
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-backward-ros, ros-lyrical-controller-manager, ros-lyrical-force-torque-sensor-broadcaster, ros-lyrical-forward-command-controller, ros-lyrical-hardware-interface, ros-lyrical-joint-state-broadcaster, ros-lyrical-joint-state-publisher-gui, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-lifecycle, ros-lyrical-robot-state-publisher, ros-lyrical-ros2-control-demo-description, ros-lyrical-ros2-controllers-test-nodes, ros-lyrical-ros2controlcli, ros-lyrical-ros2launch, ros-lyrical-rviz2, ros-lyrical-xacro
+Filename: ./ros-lyrical-ros2-control-demo-example-4_0-2026.10.25.20.07_amd64.deb
+Size: 39462
+MD5sum: 4c0249ab1fa3bc5d5db92b87a9b1079c
+SHA1: 04e7b053e1a8e54f93b289087f82d47cdd0247b7
+SHA256: 09f0836da00e6ae4c09cf7e2d6e046557181db9bca1efb9203fae62897e8b81c
+SHA512: 01e77bf8f431f8e1d35cf34421ca0bbecee6f47a1b8b08e2013a8377320a1f2c23cecd24e20fb2ca3c77b7092b6862eb69e1094852c4dde46054ccc96bf78962
+Description: Demo package of `ros2_control` hardware for RRbot with integrated sensor.
+
+Package: ros-lyrical-ros2-control-demo-example-5-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2026.10.25.20.09
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-ros2-control-demo-example-5
+Maintainer: Denis Štogl <denis@stogl.de>
+Installed-Size: 885
+Depends: ros-lyrical-ros2-control-demo-example-5 (= 0-2026.10.25.20.09)
+Filename: ./ros-lyrical-ros2-control-demo-example-5-dbgsym_0-2026.10.25.20.09_amd64.ddeb
+Size: 833848
+MD5sum: 7d07e9bd6862d6922954de93dfda895a
+SHA1: 7e650d15a67abd6b75c1519c05a389282a090569
+SHA256: d2eccb9ca9bf32ae5475915b5d3f66da266f8ba619271134b016020a46ab8036
+SHA512: 46b83eaf9d88e07776f911befa0ebc0f04b43c1b262cb0565c29a72ccfa4e6fe9885f2f5f2295967fe3d7be68db27461f6d92a03dda41d87fd36102366a3ce38
+Description: debug symbols for ros-lyrical-ros2-control-demo-example-5
+Build-Ids: 07226ebda8ee13660d8e8091acb3852d2575b863
+
+Package: ros-lyrical-ros2-control-demo-example-5
+Architecture: amd64
+Version: 0-2026.10.25.20.09
+Priority: optional
+Section: misc
+Maintainer: Denis Štogl <denis@stogl.de>
+Installed-Size: 216
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-backward-ros, ros-lyrical-controller-manager, ros-lyrical-force-torque-sensor-broadcaster, ros-lyrical-forward-command-controller, ros-lyrical-hardware-interface, ros-lyrical-joint-state-broadcaster, ros-lyrical-joint-state-publisher-gui, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-lifecycle, ros-lyrical-robot-state-publisher, ros-lyrical-ros2-control-demo-description, ros-lyrical-ros2-controllers-test-nodes, ros-lyrical-ros2controlcli, ros-lyrical-ros2launch, ros-lyrical-rviz2, ros-lyrical-xacro
+Filename: ./ros-lyrical-ros2-control-demo-example-5_0-2026.10.25.20.09_amd64.deb
+Size: 42742
+MD5sum: bef52b3e8f2ff2a49f2cc9bca23c3adc
+SHA1: 3730ad79778f34a00245713a522195c8c9799ea8
+SHA256: f3d249504921cc4e0bf9a6da2119ff789197d6d91895a3865eb50743657409cc
+SHA512: bd3520735b144e2b12a739f4408d4e7df58e1f415cc0b37a2030c709cb02bfd68a35057a568c86afe3a2883ff1e4cd78ad94cf251599d5f71996b29ba944139d
+Description: Demo package of `ros2_control` hardware for RRbot with externally connected sensor.
+
+Package: ros-lyrical-ros2-control-demo-example-6-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2026.10.25.20.10
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-ros2-control-demo-example-6
+Maintainer: Denis Štogl <denis@stogl.de>
+Installed-Size: 591
+Depends: ros-lyrical-ros2-control-demo-example-6 (= 0-2026.10.25.20.10)
+Filename: ./ros-lyrical-ros2-control-demo-example-6-dbgsym_0-2026.10.25.20.10_amd64.ddeb
+Size: 552150
+MD5sum: 068b855291d2f3c8c205e6b7b2d649de
+SHA1: 6a0b40f63a8644db782745ad2854a20d716c7931
+SHA256: d3cdf2dc1ebc92c13eecae75bc081abd85f3c4c4327a7663ca23131e60e192a5
+SHA512: 2bc6e48d0408cc172e212d3ae8c57b9951a091e3fc6f774208ef53005ccca30a07097237d96992382f2705365b2cf2922c797761f2a529c0b11647f75c1ee343
+Description: debug symbols for ros-lyrical-ros2-control-demo-example-6
+Build-Ids: 9128a5c93c8fe811aeedaa5a35efd54b44f5f6cf
+
+Package: ros-lyrical-ros2-control-demo-example-6
+Architecture: amd64
+Version: 0-2026.10.25.20.10
+Priority: optional
+Section: misc
+Maintainer: Denis Štogl <denis@stogl.de>
+Installed-Size: 174
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-backward-ros, ros-lyrical-controller-manager, ros-lyrical-forward-command-controller, ros-lyrical-hardware-interface, ros-lyrical-joint-state-broadcaster, ros-lyrical-joint-state-publisher-gui, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-lifecycle, ros-lyrical-robot-state-publisher, ros-lyrical-ros2-control-demo-description, ros-lyrical-ros2-controllers-test-nodes, ros-lyrical-ros2controlcli, ros-lyrical-ros2launch, ros-lyrical-rviz2, ros-lyrical-xacro
+Filename: ./ros-lyrical-ros2-control-demo-example-6_0-2026.10.25.20.10_amd64.deb
+Size: 36012
+MD5sum: 1501aa8ee7e148bde18cd5833ed05c73
+SHA1: 88ae6aa2eee862d057bb33e206681aed5ec39545
+SHA256: 1ad20859245644960668504ef53e27524f1320af00cf1a63954bbb65133054bd
+SHA512: d7f0df06deed86215b1b752fd276f0f471ebb0efb63e5982ef772deea3f3ed5fcbfe59557862954bfc5c988accb89cc8c72bce163e1d38c1b0698267805dbbf9
+Description: Demo package of `ros2_control` hardware for RRbot with separate communication to each actuator.
+
+Package: ros-lyrical-ros2-control-demo-example-7-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2026.10.25.20.11
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-ros2-control-demo-example-7
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 3758
+Depends: ros-lyrical-ros2-control-demo-example-7 (= 0-2026.10.25.20.11)
+Filename: ./ros-lyrical-ros2-control-demo-example-7-dbgsym_0-2026.10.25.20.11_amd64.ddeb
+Size: 3263920
+MD5sum: 95d9edf0b5a16039bbf9151aa158baad
+SHA1: e21ef1b3c507e84bb8d35b762cc495a10ebf1f8a
+SHA256: 6b0a17a3aa8867608c3bf6099447f7bb3d6aa8e5bf52fe83fe5f0e795c32fddc
+SHA512: 3c8f4731f810a3adb3d097f2976348edd14d4557c91e0265205f2f1c4c9e8ba7039a5917a7924d8a9cc2d643a41deb0080ff66bc9b47bd5c97119c196777cf43
+Description: debug symbols for ros-lyrical-ros2-control-demo-example-7
+Build-Ids: 31493a8783be42c7a03b030930559a710420b10d 422c9997ddc057046a44cb9fd9421edc1dabdf2e
+
+Package: ros-lyrical-ros2-control-demo-example-7
+Architecture: amd64
+Version: 0-2026.10.25.20.11
+Priority: optional
+Section: misc
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 730
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.2), libstdc++6 (>= 14), ros-lyrical-backward-ros, ros-lyrical-control-msgs, ros-lyrical-controller-interface, ros-lyrical-controller-manager, ros-lyrical-hardware-interface, ros-lyrical-joint-state-broadcaster, ros-lyrical-joint-state-publisher-gui, ros-lyrical-kdl-parser, ros-lyrical-launch, ros-lyrical-launch-ros, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-lifecycle, ros-lyrical-realtime-tools, ros-lyrical-robot-state-publisher, ros-lyrical-ros2-control-demo-description, ros-lyrical-ros2controlcli, ros-lyrical-ros2launch, ros-lyrical-rviz2, ros-lyrical-trajectory-msgs, ros-lyrical-urdf, ros-lyrical-xacro
+Filename: ./ros-lyrical-ros2-control-demo-example-7_0-2026.10.25.20.11_amd64.deb
+Size: 165348
+MD5sum: eed5b09dba3c2ce319788c8f4b637c76
+SHA1: e26384849b5fa1bed8dd948dfe4314bd35a6744c
+SHA256: 45182f1e7c6b5a5b263903f0eaeac8d473123f30ea309dab8e0713ed772aae57
+SHA512: 424ebdc9a463d0106b65a05da657c3b59b05d0b6433b148ac76026e8215d01591b70b7c58afd3329d67d58c2f34b475d659c753cf1b299f6b5e4f9e4a3c6d364
+Description: Demo for 6 DOF robot.
+
+Package: ros-lyrical-ros2-control-demo-example-8-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2026.10.25.20.13
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-ros2-control-demo-example-8
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 696
+Depends: ros-lyrical-ros2-control-demo-example-8 (= 0-2026.10.25.20.13)
+Filename: ./ros-lyrical-ros2-control-demo-example-8-dbgsym_0-2026.10.25.20.13_amd64.ddeb
+Size: 656560
+MD5sum: 3578c2a38ee15d7635ab978777f6f93b
+SHA1: ea74750352f72dadecbb2dc5c080cf39eecf6993
+SHA256: aecd1f2f016d5ba49f8d68e24dfd3ded35ca3065a772b3d1c611cc7a6becfb96
+SHA512: f5e9b9938b4570c5c22b23ad7a557d4942a9dad4b619dec15c125a2753642ac4e602d192de561f1fc3d41091fbb3c78e5711baeb20b44facda95441b0e6a6dc3
+Description: debug symbols for ros-lyrical-ros2-control-demo-example-8
+Build-Ids: 7b39df33276158ca74b2229df6a920aebc992232
+
+Package: ros-lyrical-ros2-control-demo-example-8
+Architecture: amd64
+Version: 0-2026.10.25.20.13
+Priority: optional
+Section: misc
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 189
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-backward-ros, ros-lyrical-controller-manager, ros-lyrical-forward-command-controller, ros-lyrical-hardware-interface, ros-lyrical-joint-state-broadcaster, ros-lyrical-joint-state-publisher-gui, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-lifecycle, ros-lyrical-robot-state-publisher, ros-lyrical-ros2-control-demo-description, ros-lyrical-ros2-controllers-test-nodes, ros-lyrical-ros2controlcli, ros-lyrical-ros2launch, ros-lyrical-rviz2, ros-lyrical-transmission-interface, ros-lyrical-xacro
+Filename: ./ros-lyrical-ros2-control-demo-example-8_0-2026.10.25.20.13_amd64.deb
+Size: 44320
+MD5sum: a925e951426830a56532e55451de5b2b
+SHA1: 6c98d01c72501be918f6668deef9d4f27da5894e
+SHA256: e3821239e6497cdca44f4fea5af1bce790e570cd5cfdb79a2841b3be08279f81
+SHA512: fc253c43ce41bec6554c820dd886d7b74ff4df09cec3178f15a02b4e2e1a9c299ca0354c18b449991edbc381cae99b92a12f8cb0fdea087fff7ef63690d43cea
+Description: Demo package of `ros2_control` hardware for RRbot with transmission interface.
+
+Package: ros-lyrical-ros2-control-demo-example-9-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2026.10.25.20.14
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-ros2-control-demo-example-9
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 595
+Depends: ros-lyrical-ros2-control-demo-example-9 (= 0-2026.10.25.20.14)
+Filename: ./ros-lyrical-ros2-control-demo-example-9-dbgsym_0-2026.10.25.20.14_amd64.ddeb
+Size: 554742
+MD5sum: 4a2a7c6d0b532d94babf67c5a96ce6ac
+SHA1: 63ae97d0e000fe6d11ccdefa2a93796a08dd2995
+SHA256: ebf054e7ca7923db32e6c5d953ce3cb1a79a1e1282a8fe4ae59179265d4bf979
+SHA512: efd86ced390da9cdf0749ee9eedfe5375e5b8a17743ad7c61597f6141933ec99a5da269709eca6dc540e9d2e07727ca76d22b9880518c50b14609826abed8d77
+Description: debug symbols for ros-lyrical-ros2-control-demo-example-9
+Build-Ids: 6de6a2fe1e9a15c4c14a58cc2951fa31d594d8a5
+
+Package: ros-lyrical-ros2-control-demo-example-9
+Architecture: amd64
+Version: 0-2026.10.25.20.14
+Priority: optional
+Section: misc
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 185
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-backward-ros, ros-lyrical-controller-manager, ros-lyrical-forward-command-controller, ros-lyrical-gz-ros2-control, ros-lyrical-hardware-interface, ros-lyrical-joint-state-broadcaster, ros-lyrical-joint-state-publisher-gui, ros-lyrical-joint-trajectory-controller, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-lifecycle, ros-lyrical-robot-state-publisher, ros-lyrical-ros-gz-bridge, ros-lyrical-ros-gz-sim, ros-lyrical-ros2-control-demo-description, ros-lyrical-ros2-controllers-test-nodes, ros-lyrical-ros2controlcli, ros-lyrical-rviz2, ros-lyrical-xacro
+Filename: ./ros-lyrical-ros2-control-demo-example-9_0-2026.10.25.20.14_amd64.deb
+Size: 37012
+MD5sum: 00fe220ad3b4e3d80f60840984c1e6b6
+SHA1: 0b8d70aee18863afee330f4eb47c2910285a7d1c
+SHA256: b368d3826c6d93a537965b6269d6b28669d34451d5d9adc46eb329cf6ffc0613
+SHA512: 487866df22d13bc8c99d90eb630135cf3a94af9c2e377e59bbe931fc718f40c212bcae168ce5cfc28bbe36f58557d4e82a9b90b0e0c2613c37ddf151af02d532
+Description: Demo package of `ros2_control` simulation with RRbot.
+
+Package: ros-lyrical-ros2-control-demo-test-utils
+Architecture: amd64
+Version: 0-2026.10.25.19.54
+Priority: optional
+Section: misc
+Maintainer: Dr.-Ing. Denis Štogl <denis.stogl@stoglrobotics.de>
+Installed-Size: 47
+Depends: ros-lyrical-rclpy, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs
+Filename: ./ros-lyrical-ros2-control-demo-test-utils_0-2026.10.25.19.54_amd64.deb
+Size: 8346
+MD5sum: e9dddeffccf2406d19b9d451e8318fb3
+SHA1: 1fc1572cc615dc11779669b0ed493def25a1f39a
+SHA256: 7e44392668f6af3b1f118bbdd8595a858650b9d2ffda59f5cb7102e2e6ae5d45
+SHA512: b8028f1cb6a6f4832ba634f31540ae0ac32ca6a4ba582d77783a2e1bfd6b8eb3d74a1f40659c95879eb21384fedf1319631cd151dfa1ea5a2d37faed5be23cdb
+Description: Shared utilities for testing movement in ros2_control demos.
+
+Package: ros-lyrical-ros2-control-demos
+Architecture: amd64
+Version: 0-2026.10.25.20.18
+Priority: optional
+Section: misc
+Maintainer: Denis Štogl <denis@stogl.de>
+Installed-Size: 45
+Depends: ros-lyrical-ros2-control-demo-example-1, ros-lyrical-ros2-control-demo-example-10, ros-lyrical-ros2-control-demo-example-11, ros-lyrical-ros2-control-demo-example-12, ros-lyrical-ros2-control-demo-example-13, ros-lyrical-ros2-control-demo-example-14, ros-lyrical-ros2-control-demo-example-15, ros-lyrical-ros2-control-demo-example-16, ros-lyrical-ros2-control-demo-example-17, ros-lyrical-ros2-control-demo-example-2, ros-lyrical-ros2-control-demo-example-3, ros-lyrical-ros2-control-demo-example-4, ros-lyrical-ros2-control-demo-example-5, ros-lyrical-ros2-control-demo-example-6, ros-lyrical-ros2-control-demo-example-7, ros-lyrical-ros2-control-demo-example-8, ros-lyrical-ros2-control-demo-example-9
+Filename: ./ros-lyrical-ros2-control-demos_0-2026.10.25.20.18_amd64.deb
+Size: 5406
+MD5sum: 1e2278b6f95f7d23daf8130c8989cd19
+SHA1: 9be27e705530c3968f0ee3d91074972c4bf2fc0b
+SHA256: 45546e7ce54ff57bcffc96378e56ac87ea4321dc56154555958e10b514d273d8
+SHA512: dbaf5de2ea36eb0ccc408fb57a9a1bdf66da1b10d21c791b4227807bc14d5ac977e314afe3a6bc1df77b3b57c57217fde97c88bcd0a087c14a24b4e0f5a7b66f
+Description: Metapackage for `ros2_control` demos packages
+
